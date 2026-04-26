@@ -1,0 +1,22 @@
+# basic .paneru.toml
+[options]
+focus_follows_mouse = true
+mouse_follows_focus = true
+animation_speed = 60
+
+[padding]
+top = 0
+left = 10
+right = 10
+bottom = 0
+[swipe]
+continuous = true
+[swipe.gesture]
+fingers_count = 3
+[bindings]
+window_focus_west = "ctrl - leftarrow"
+window_focus_east = "ctrl - rightarrow"
+window_resize = "alt - r"
+window_center = "alt - c"
+quit = "ctrl + q"
+window_fullwidth = "ctrl - f"
