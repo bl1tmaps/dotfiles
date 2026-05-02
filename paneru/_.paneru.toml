@@ -1,8 +1,8 @@
 # basic .paneru.toml
 [options]
-focus_follows_mouse = true
-mouse_follows_focus = true
-animation_speed = 60
+focus_follows_mouse = false
+mouse_follows_focus = false
+animation_speed = 80
 
 [padding]
 top = 0
@@ -18,5 +18,6 @@ window_focus_west = "ctrl - leftarrow"
 window_focus_east = "ctrl - rightarrow"
 window_resize = "alt - r"
 window_center = "alt - c"
-quit = "ctrl + q"
 window_fullwidth = "ctrl - f"
+window_swap_west = "alt - leftarrow"
+window_swap_east = "alt - rightarrow"
